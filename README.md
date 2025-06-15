@@ -2,6 +2,8 @@
 
 A mini dashboard application that connects to the YouTube API and helps creators manage **one of their uploaded videos** in detail. The app supports video metadata editing, comment interaction, personal note-taking, and event logging.
 
+Live Demo: https://youtube-dashboard-client-two.vercel.app
+
 ---
 
 ## 🚀 Features
@@ -50,6 +52,12 @@ A mini dashboard application that connects to the YouTube API and helps creators
 - YouTube Data API v3
 - Google OAuth 2.0 (for authenticating YouTube account)
 - dotenv, cors, cookie-parser (for backend utilities)
+
+### Deployment
+
+- Vercel (Frontend)
+- Render (Backend)
+- MongoDB Atlas (Database)
 
 ---
 
