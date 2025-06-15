@@ -1,0 +1,32 @@
+# Ignore node_modules for both frontend and backend
+youtube-dashboard-backend/node_modules/
+youtube-dashboard-frontend/node_modules/
+
+# Ignore .env files for both frontend and backend
+youtube-dashboard-backend/.env
+youtube-dashboard-frontend/.env
+
+# Ignore build files
+youtube-dashboard-frontend/build/
+youtube-dashboard-backend/build/
+
+# Ignore logs
+logs/
+*.log
+npm-debug.log*
+
+# Ignore build and cache folders for deployment
+youtube-dashboard-frontend/.vercel/
+youtube-dashboard-frontend/.cache/
+youtube-dashboard-backend/.cache/
+youtube-dashboard-frontend/build/
+youtube-dashboard-backend/build/
+youtube-dashboard-frontend/dist/
+youtube-dashboard-backend/dist/
+
+# Miscellaneous files
+.DS_Store
+
+# Ignore VS Code settings
+.vscode/
+
