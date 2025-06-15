@@ -72,12 +72,19 @@ npm install
 Create a .env file in the backend directory with the following:
 
 PORT=5000
+
 MONGO_URI=your_mongodb_connection_string
+
 GOOGLE_CLIENT_ID=your_google_client_id
+
 GOOGLE_CLIENT_SECRET=your_google_client_secret
+
 REDIRECT_URI=http://localhost:5000/api/auth/google/callback
+
 JWT_SECRET=your_jwt_secret
+
 CLIENT_URL=http://localhost:3000
+
 NODE_ENV=development
 
 Then start the backend server:
