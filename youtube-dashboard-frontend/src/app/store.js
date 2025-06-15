@@ -3,7 +3,7 @@ import { configureStore } from "@reduxjs/toolkit";
 import authReducer from "../features/auth/authSlice";
 import videoReducer from "../features/video/videoSlice";
 import noteReducer from "../features/notes/notesSlice";
-import logReducer from "../features/logs/logSlice_temp";
+import logReducer from "../features/eventLogs/logSlice";
 
 const store = configureStore({
   reducer: {
