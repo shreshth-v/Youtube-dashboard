@@ -66,14 +66,13 @@ Live Demo: https://youtube-dashboard-client-two.vercel.app
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/youtube-video-manager.git
-cd youtube-video-manager
+git clone https://github.com/shreshth-v/Youtube-dashboard.git
 ```
 
 ### 2. Set Up the Backend
 
 ```bash
-cd backend
+cd youtube-dashboard-backend
 npm install
 ```
 
@@ -104,7 +103,7 @@ npm run dev
 ### 3. Set Up the Frontend
 
 ```bash
-cd ../frontend
+cd ../youtube-dashboard-frontend
 npm install
 ```
 
